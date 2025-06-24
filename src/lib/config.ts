@@ -1,9 +1,9 @@
 export const SITE = {
   pageType: 'website',
-  author: "Louai Boumediene",
+  author: "Brian Hawi Odhiambo",
   profile: "https://louai.site",
   desc: "My digital space, projects, insights, and thoughts on software engineering.",
-  title: "Louai Boumediene",
+  title: "Brian Hawi Odhiambo",
   ogImage: '/og-image.jpg',
   postPerPage: 6,
 } as const;

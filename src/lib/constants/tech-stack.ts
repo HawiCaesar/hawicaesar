@@ -1,26 +1,24 @@
 import {
-  BunJs,
   Docker,
   Figma,
-  Framer,
   Git,
   MongoDB,
-  NextJs,
   NodeJs,
-  Python,
+  JavaScript,
   React,
   ReactQuery,
-  Redis,
+  SemanticUI,
   Redux,
-  ShadcnUI,
+  Storybook,
   TailwindCSS,
   TypeScript,
-  Appwrite,
-  Astro
+  Astro,
+  ExpressJsDark,
+  MySQL,
+  PostgreSQL,
+  Playwright,
+  I18next,
 } from "developer-icons";
-
-import HonoIcon from '@/components/ui/icons/hono.astro'
-import FastapiIcon from '@/components/ui/icons/fastapi.astro'
 
 
 export const TECH_STACK = [
@@ -31,9 +29,9 @@ export const TECH_STACK = [
     icon: TypeScript,
   },
   {
-    title: "Python",
-    href: "https://www.python.org/",
-    icon: Python,
+    title: "Javascript",
+    href: "https://www.javascript.com/",
+    icon: JavaScript,
   },
 
   // Frontend Technologies
@@ -43,28 +41,28 @@ export const TECH_STACK = [
     icon: React,
   },
   {
-    title: "Next.js",
-    href: "https://nextjs.org/",
-    icon: NextJs,
-  },
-  {
-    title: "Astro.js",
-    href: "https://astro.build/",
-    icon: Astro,
-  },
-  {
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     icon: TailwindCSS,
   },
   {
-    title: "Redux",
-    href: "https://redux.js.org/",
-    icon: Redux,
+    title: "React Testing Library",
+    href: "https://testing-library.com/docs/react-testing-library/intro/",
   },
   {
-    title: "Zustand",
-    href: "https://zustand-demo.pmnd.rs/",
+    title: "Storybook",
+    href: "https://storybook.js.org/",
+    icon: Storybook,
+  },
+  {
+    title: "I18next",
+    href: "https://www.i18next.com/",
+    icon: I18next,
+  },
+  {
+    title: "Playwright",
+    href: "https://playwright.dev/",
+    icon: Playwright,
   },
   {
     title: "React Query",
@@ -72,16 +70,20 @@ export const TECH_STACK = [
     icon: ReactQuery,
   },
   {
-    title: "shadcn/ui",
-    href: "https://ui.shadcn.com/",
-    icon: ShadcnUI,
+    title: "Astro.js",
+    href: "https://astro.build/",
+    icon: Astro,
   },
   {
-    title: "Motion",
-    href: "https://motion.dev/",
-    icon: Framer,
+    title: "Semantic UI",
+    href: "https://semantic-ui.com/",
+    icon: SemanticUI,
   },
-
+  {
+    title: "Redux",
+    href: "https://redux.js.org/",
+    icon: Redux,
+  },
 
   // Backend Technologies
   {
@@ -90,26 +92,10 @@ export const TECH_STACK = [
     icon: NodeJs,
   },
   {
-    title: "Bun",
-    href: "https://bun.sh/",
-    icon: BunJs,
+    title: "ExpressJS",
+    href: "https://expressjs.com/",
+    icon: ExpressJsDark,
   },
-  {
-    title: "FastAPI",
-    href: "https://fastapi.tiangolo.com/",
-    icon: FastapiIcon
-  },
-  {
-    title: "Honojs",
-    href: "https://hono.dev/",
-    icon: HonoIcon
-  },
-  {
-    title: "Appwrite",
-    href: "https://appwrite.io",
-    icon: Appwrite
-  },
-
   // Databases & Caching
   {
     title: "MongoDB",
@@ -117,9 +103,14 @@ export const TECH_STACK = [
     icon: MongoDB,
   },
   {
-    title: "Redis",
-    href: "https://redis.io/",
-    icon: Redis,
+    title: "MySQL",
+    href: "https://www.mysql.com/",
+    icon: MySQL,
+  },
+  {
+    title: "PostgreSQL",
+    href: "https://www.postgresql.org/",
+    icon: PostgreSQL,
   },
 
   // DevOps & Development Tools
@@ -133,8 +124,6 @@ export const TECH_STACK = [
     href: "https://git-scm.com/",
     icon: Git,
   },
-
-
 
   // Miscellaneous
   {

@@ -1,12 +1,11 @@
 export const PROFILE_INFO = {
-  role: 'Software Engineer / Full-stack Developer',
-  logo: 'Louai.b',
+  role: 'Software Engineer / Frontend Developer',
+  logo: 'HawiCaesar',
   slogan: 'Coding, Creativity, Coffee...',
-  displayName: "Louai Boumediene",
-  email: "boumedienelouai2@gmail.com",
+  displayName: "Brian Hawi Odhiambo",
+  email: "brianhawi92@gmail.com",
   about: `
-I'm a **software engineer** passionate about crafting high-quality digital experiences. With expertise in **full-stack** development and a strong eye for **UI/UX**, I build **performant, pixel-perfect** applications that are both functional and visually appealing.  
-Always **learning**, always **iterating**, always pushing boundaries.  
+I'm a full stack **software engineer** with 7 years of experience specializing in **frontend web development**. A **custodian for frontend experiences** with the ability to develop and maintain high-quality, resilient, accessible, and performant web applications. In addition to frontend development, I have experience in test-driven development (TDD) and backend development. Possesses 6 years of remote work experience
 `,
 } as const;
 
