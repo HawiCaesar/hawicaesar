@@ -10,16 +10,16 @@ import BoxTitle from "@/components/box/title.astro";
 import BoxHeader from "@/components/box/header.astro";
 
 export async function getStaticPaths() {
-  const articels = await getCollection("blog");
-  return articels.map(article => ({
+  const articles = await getCollection("blog");
+  return articles.map(article => ({
     params: { category: article.data.category },
   }));
 }
 
 const { category } = Astro.params;
 
-const articels = await getCollection("blog");
-const categoryArticles = articels.filter(
+const articles = await getCollection("blog");
+const categoryArticles = articles.filter(
   article => article.data.category === category
 );
 

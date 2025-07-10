@@ -8,31 +8,56 @@ import BoxTitle from "@/components/box/title.astro";
 import { getCollection } from "astro:content";
 import ProjectItem from "@/components/sections/projects/project-item.astro";
 
-const projects = await getCollection("projects");
+const projects = [
+  {
+    id: "internationalization",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "An introduction into internationalization.",
+      name: "Internationalization",
+      sourceCode: "https://github.com/HawiCaesar/localization-playground",
+      technologies: ["React", "Node.js", "Express", "i18next"],
+      preview: "https://www.youtube.com/watch?v=kvu8M1_N5GE"
+    }
+  },
+  {
+    id: "payment-confirmation-mpesa",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "A simple payment confirmation system using M-Pesa API.",
+      name: "Payment Confirmation with M-Pesa",
+      technologies: ["SOAP-XML", "NGINX"],
+      sourceCode: "https://github.com/HawiCaesar/pay_confirmation",
+      preview: "https://hawihustle.wordpress.com/2016/05/23/mpesa-api-integration-payment-confirmation/",
+    },
+  }
+];
 
-const coreProjects = projects.filter(project => project.data.type === "core");
+//const coreProjects = projects.filter(project => project.data.type === "core");
 const sideProjects = projects.filter(project => project.data.type === "side");
 ---
 
 <PageLayout
-  description="A collection of things I’ve built, full-stack apps, experiments, and side projects."
+  description="A collection of things I've built, full-stack apps, experiments, and side projects."
   title="My Projects"
 >
-  <Pattern />
+  <!-- <Pattern />
   <Box>
     <BoxHeader>
       <BoxTitle> Built to Last </BoxTitle>
     </BoxHeader>
 
     {coreProjects.map(item => <ProjectItem project={item} />)}
-  </Box>
+  </Box> -->
 
   {
     sideProjects.length > 0 && (
       <Pattern />
       <Box>
         <BoxHeader>
-          <BoxTitle>Side Hustles</BoxTitle>
+          <BoxTitle>Moonlighting work</BoxTitle>
         </BoxHeader>
         {sideProjects.map(item => <ProjectItem project={item} />)}
       </Box>

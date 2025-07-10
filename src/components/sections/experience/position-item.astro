@@ -32,7 +32,7 @@ const { position } = Astro.props;
       class="description-content max-h-0 overflow-hidden transition-all duration-300"
     >
       <div
-        class=""
+        class="prose prose-sm"
         set:html={markdownToHtml(
           position.description,
           "ml-7 text-sm leading-7"
@@ -87,14 +87,15 @@ const { position } = Astro.props;
       const iconDown = button.querySelector(".toggle-icon-down");
       const iconUp = button.querySelector(".toggle-icon-up");
 
-      if (index === 0) {
-        if (content) content.classList.add("expanded");
-        if (toggleText) toggleText.textContent = "Show less";
-        if (iconDown) iconDown.classList.add("hidden");
-        if (iconUp) iconUp.classList.remove("hidden");
+      // Hide the first experience by default
+      // if (index === 0) {
+      //   if (content) content.classList.add("expanded");
+      //   if (toggleText) toggleText.textContent = "Show less";
+      //   if (iconDown) iconDown.classList.add("hidden");
+      //   if (iconUp) iconUp.classList.remove("hidden");
 
-        iconUp?.classList.add("visible");
-      }
+      //   iconUp?.classList.add("visible");
+      // }
 
       button.addEventListener("click", () => {
         if (content) {
