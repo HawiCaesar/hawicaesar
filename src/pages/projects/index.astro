@@ -5,7 +5,7 @@ import PageLayout from "@/layouts/page-layout.astro";
 import Box from "@/components/box/index.astro";
 import BoxHeader from "@/components/box/header.astro";
 import BoxTitle from "@/components/box/title.astro";
-import { getCollection } from "astro:content";
+//import { getCollection } from "astro:content";
 import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = [
@@ -18,7 +18,7 @@ const projects = [
       name: "Internationalization",
       sourceCode: "https://github.com/HawiCaesar/localization-playground",
       technologies: ["React", "Node.js", "Express", "i18next"],
-      preview: "https://www.youtube.com/watch?v=kvu8M1_N5GE"
+      preview: "https://www.youtube.com/watch?v=kvu8M1_N5GE",
     }
   },
   {
@@ -30,10 +30,12 @@ const projects = [
       name: "Payment Confirmation with M-Pesa",
       technologies: ["SOAP-XML", "NGINX"],
       sourceCode: "https://github.com/HawiCaesar/pay_confirmation",
-      preview: "https://hawihustle.wordpress.com/2016/05/23/mpesa-api-integration-payment-confirmation/",
+      preview: "https://github.com/HawiCaesar/pay_confirmation"
     },
   }
 ];
+
+const playgroundProjects = []
 
 //const coreProjects = projects.filter(project => project.data.type === "core");
 const sideProjects = projects.filter(project => project.data.type === "side");

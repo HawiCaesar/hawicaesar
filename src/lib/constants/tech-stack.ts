@@ -18,6 +18,8 @@ import {
   PostgreSQL,
   Playwright,
   I18next,
+  ClaudeAI,
+  ChatGPT,
 } from "developer-icons";
 
 
@@ -68,6 +70,16 @@ export const TECH_STACK = [
     title: "React Query",
     href: "https://tanstack.com/query/latest",
     icon: ReactQuery,
+  },
+  {
+    title: "ChatGPT",
+    href: "https://chatgpt.com/",
+    icon: ChatGPT,
+  },
+  {
+    title: "Claude AI",
+    href: "https://www.anthropic.com/",
+    icon: ClaudeAI,
   },
   {
     title: "Astro.js",
