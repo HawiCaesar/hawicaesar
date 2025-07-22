@@ -1,4 +1,4 @@
-# Hawi Personal website/blog/portfolio
+# Hello 👋🏾, my name is Brian Hawi Odhiambo
 
 📫 **How to reach me**
 
