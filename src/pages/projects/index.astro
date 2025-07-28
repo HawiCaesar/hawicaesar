@@ -9,6 +9,18 @@ import BoxTitle from "@/components/box/title.astro";
 import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = [
+{
+    id: "browser-automation-staghand-example-1",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "Experimenting with browser automation using Staghand.",
+      name: "Browser Automation with Staghand",
+      technologies: ["Staghand", "Playwright", "Node.js", "Typescript"],
+      sourceCode: "https://github.com/HawiCaesar/stagehand-example-claudeai/",
+      preview: "https://github.com/HawiCaesar/stagehand-example-claudeai"
+    }
+  },
   {
     id: "internationalization",
     collection: "projects" as const,
@@ -32,18 +44,6 @@ const projects = [
       sourceCode: "https://github.com/HawiCaesar/pay_confirmation",
       preview: "https://github.com/HawiCaesar/pay_confirmation"
     },
-  },
-  {
-    id: "browser-automation-staghand-example-1",
-    collection: "projects" as const,
-    data: {
-      type: "side" as const,
-      description: "Experimenting with browser automation using Staghand.",
-      name: "Browser Automation with Staghand",
-      technologies: ["Staghand", "Playwright", "Node.js", "Typescript"],
-      sourceCode: "https://github.com/HawiCaesar/stagehand-example-claudeai/",
-      preview: "https://github.com/HawiCaesar/stagehand-example-claudeai"
-    }
   }
 ];
 
