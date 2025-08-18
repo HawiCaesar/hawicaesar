@@ -6,7 +6,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Software Engineer",
-        year: "07.2017 - Present, 8 years",
+        year: "July 2017 - Present, 8 years",
         description: `
 - ♦ Worked on multiple teams building various internal web solutions.
 - ♦ Projects: Andela Resource Tool, Andela Meals
@@ -32,13 +32,17 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Frontend Engineer (Contract)",
-        year: "05.2019 - 07.2025, 6 years",
+        year: "May 2019 - July 2025, 6 years",
         description: `
-- ♦ Developed the initial production web application for Site using **React, Mobx, and Styled Components** in collaboration with the product manager and another engineer. This initiative enabled doctors to conduct clinical trials on any desktop browser, resulting in cost reduction for Medable. This work contributed to Medable secure funding to further digital and decentralized clinical trials.
-- ♦ Helped lead the redesign and rebuild of Medable's new Site experience using **Typescript, React, TailwindCSS** with accessibility and performance in mind as part of the One, One and One decentralized clinical trial strategy, collaborating with a senior frontend engineer. This effort was instrumental in securing a $50M Flu study for Medable. User interface examples from this work are available in [**the product manager's recognition post**](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-reliable-activity-7336141432379887618-QLp4?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4) and [**the CEO's announcement**](https://www.linkedin.com/posts/michellelongmire_teammedable-activity-7328082425832493056-kFid?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4). Moreover, I developed the in-built training feature allowing easier understanding on how to use the Medable for sites experience.
-- ♦ Built a feature allowing Site users to view survey task response data and audit history entries increasing traceability and accountability in clinical trials on the web version of the Site application.           
+- ♦ Built the first production web application for Site using React, MobX, and Styled Components in collaboration with the product manager and
+another engineer. This enabled doctors to run clinical trials on any desktop browser, which reduced costs for Medable and contributed to Medable
+securing funding to expand digital and decentralized clinical trials.
+- ♦ Developed the redesign and rebuild of Medable's Site experience using **TypeScript, React, and TailwindCSS** with a focus on accessibility and
+performance, in collaboration with a senior frontend engineer. This effort supported Medable's One, One and One decentralized clinical trial
+strategy, which secured a GSK Flu clinical trial. Highlighted in recognition posts by the [product manager](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-activity-7336141432379887618-QLp4?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4) and [CEO](https://www.linkedin.com/posts/michellelongmire_teammedable-activity-7328082425832493056-kFid?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4).
+- ♦ Developed the in-built training feature allowing easier understanding on how to use the Medable for sites experience.          
 - ♦ Re-designed and implemented reference to language and region codes in the custom web framework with the aim of allowing standardisation **(using Intl.Locale as per ECMAscript standard)**, reducing code complexity allowing unit tests to be written and impacting customer value as more languages with scripts can be supported
-- ♦ More details on my resume [**here**](https://www.linkedin.com/posts/brian-hawi-odhiambo-95180a95_medable-is-now-a-unicorn-activity-7205101100200001536-_000?utm_source=share&utm_medium=member_desktop)
+- ♦ More details on my resume [**here**](https://drive.google.com/file/d/1iyWHYZYz-h-Jkt6Tuhqhcj03-qCt8V4O/view?usp=sharing)
 
 `,
 skills: [
@@ -65,10 +69,11 @@ skills: [
     positions: [
       {
         title: "Frontend Developer",
-        year: "09.2018 - 02.2019, 6 months",
+        year: "September 2018 - February 2019, 6 months",
         description: `
-- ♦ Worked on an internal tool integrating **GraphQL APIs** and **React Apollo Client** and **Material UI** that helped the sales and product team configure and manage the incident response management system for field crews and operations managers. Configuration of the incident response management system was reduced to a few hours instead of 2 or more days.
-            `,
+- ♦ Engineered an internal tool using **GraphQL APIs, React Apollo Client, and Material UI** to help sales and product teams configure and manage the incident response system for field crews and operations managers.
+- ♦ Reduced system configuration time from multiple days to a few hours.
+`,
         skills: [
           "React",
           "GraphQL",
@@ -85,7 +90,7 @@ skills: [
     positions: [
       {
         title: "Software Developer",
-        year: "11.2015 - 12.2016, 1 year",
+        year: "November 2015 - December 2016, 1 year, 1 month",
         description: `
 - ♦ Enhanced UI/UX for key Kilimall campaigns. Integrated the new M-Pesa API to expand customer reach. Created a [**user-friendly guide for integrating with Lipa Na M-Pesa**](https://github.com/HawiCaesar/pay_confirmation).
             `,
@@ -106,7 +111,7 @@ skills: [
     positions: [
       {
         title: "Web Developer",
-        year: "11.2013 - 10.2015, 1 year 10 months",
+        year: "November 2013 - October 2015, 1 year, 11 months",
         description: `
 - ♦ Built web-based health solutions for the Ministry of Health in Kenya allowing better reporting, analytics and ultimately better resource allocation to remote hospitals in Kenya. Achieved this with **PHP - CodeIgniter**.
 - ♦ More details of the work we did here [**here**](https://www.youtube.com/watch?v=VKxUVXX_YWI)
