@@ -60,6 +60,9 @@ skills: [
           "A11y",
           "React Query",
           "Storybook",
+          "Claude AI",
+          "OpenAI",
+          "GPT4"
         ]
       },
     ],
