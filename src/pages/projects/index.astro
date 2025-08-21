@@ -9,13 +9,25 @@ import BoxTitle from "@/components/box/title.astro";
 import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = [
+  {
+    id: "browser-automation-staghand-example-3",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "Playground 3: A simple attempt to see if browser automation can be used to login to the KRA itax portal.",
+      name: "Stagehand / BrowserBase: KRA browser automated login attempt",
+      technologies: ["Staghand", "Playwright", "Node.js", "Typescript" , "Anthropic API", "Claude AI"],
+      sourceCode: "https://github.com/HawiCaesar/stagehand-example-claudeai/tree/feat/KRA-simple-login?tab=readme-ov-file#kra-automation-login-attempt",
+      preview: "https://github.com/HawiCaesar/stagehand-example-claudeai/tree/feat/KRA-simple-login?tab=readme-ov-file#kra-automation-login-attempt"
+    }
+  },
 {
     id: "browser-automation-staghand-example-2",
     collection: "projects" as const,
     data: {
       type: "side" as const,
-      description: "Multi-step form automated tests using Staghand. Playground 2",
-      name: "Multi-step form automated tests",
+      description: "Playground 2: A multi-step form project that includes browser automation using Staghand.",
+      name: "Stagehand / BrowserBase: Multi-step form automated tests",
       technologies: ["Staghand", "Playwright", "ReactJS", "Typescript", "TailwindCSS", "Anthropic API", "Claude AI"],
       sourceCode: "https://github.com/HawiCaesar/multi-step-form-xp",
       preview: "https://github.com/HawiCaesar/multi-step-form-xp"
@@ -26,10 +38,10 @@ const projects = [
     collection: "projects" as const,
     data: {
       type: "side" as const,
-      description: "Experimenting with browser automation using Staghand. Playground 1",
-      name: "Browser Automation with Staghand",
+      description: "Playground 1: Experimenting with browser automation using Staghand.",
+      name: "Stagehand / BrowserBase: Browser Automation with Staghand",
       technologies: ["Staghand", "Playwright", "Node.js", "Typescript" , "Anthropic API", "Claude AI"],
-      sourceCode: "https://github.com/HawiCaesar/stagehand-example-claudeai/",
+      sourceCode: "https://github.com/HawiCaesar/stagehand-example-claudeai",
       preview: "https://github.com/HawiCaesar/stagehand-example-claudeai"
     }
   },

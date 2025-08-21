@@ -8,8 +8,8 @@ export const EXPERIENCES: Experience[] = [
         title: "Software Engineer",
         year: "July 2017 - Present, 8 years",
         description: `
-- ♦ Worked on multiple teams building various internal web solutions.
-- ♦ Projects: Andela Resource Tool, Andela Meals
+-  Engineered solutions on multiple teams building various internal web products.
+-  Projects: Andela Resource Tool, Andela Meals
 `,
         skills: [
           "Javascript",
@@ -31,18 +31,18 @@ export const EXPERIENCES: Experience[] = [
     company: "Medable",
     positions: [
       {
-        title: "Frontend Engineer (Contract)",
-        year: "May 2019 - July 2025, 6 years",
+        title: "Frontend Engineer (Contract via Andela)",
+        year: "May 2019 - July 2025, 6 years, 3 months",
         description: `
-- ♦ Built the first production web application for Site using React, MobX, and Styled Components in collaboration with the product manager and
+-  Built the first production web application for Site using React, MobX, and Styled Components in collaboration with the product manager and
 another engineer. This enabled doctors to run clinical trials on any desktop browser, which reduced costs for Medable and contributed to Medable
 securing funding to expand digital and decentralized clinical trials.
-- ♦ Developed the redesign and rebuild of Medable's Site experience using **TypeScript, React, and TailwindCSS** with a focus on accessibility and
+-  Developed the redesign and rebuild of Medable's Site experience using **TypeScript, React, and TailwindCSS** with a focus on accessibility and
 performance, in collaboration with a senior frontend engineer. This effort supported Medable's One, One and One decentralized clinical trial
 strategy, which secured a GSK Flu clinical trial. Highlighted in recognition posts by the [product manager](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-activity-7336141432379887618-QLp4?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4) and [CEO](https://www.linkedin.com/posts/michellelongmire_teammedable-activity-7328082425832493056-kFid?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4).
-- ♦ Developed the in-built training feature allowing easier understanding on how to use the Medable for sites experience.          
-- ♦ Re-designed and implemented reference to language and region codes in the custom web framework with the aim of allowing standardisation **(using Intl.Locale as per ECMAscript standard)**, reducing code complexity allowing unit tests to be written and impacting customer value as more languages with scripts can be supported
-- ♦ More details on my resume [**here**](https://drive.google.com/file/d/1iyWHYZYz-h-Jkt6Tuhqhcj03-qCt8V4O/view?usp=sharing)
+-  Developed the in-built training feature allowing easier understanding on how to use the Medable for sites experience.          
+- Re-designed and implemented reference to language and region codes in the custom web framework with the aim of allowing standardisation **(using Intl.Locale as per ECMAscript standard)**, reducing code complexity allowing unit tests to be written and impacting customer value as more languages with scripts can be supported
+- More details on my resume [**here**](https://drive.google.com/file/d/1iyWHYZYz-h-Jkt6Tuhqhcj03-qCt8V4O/view?usp=sharing)
 
 `,
 skills: [
@@ -71,11 +71,11 @@ skills: [
     company: "Daupler",
     positions: [
       {
-        title: "Frontend Developer",
+        title: "Frontend Developer (Contract via Andela)",
         year: "September 2018 - February 2019, 6 months",
         description: `
-- ♦ Engineered an internal tool using **GraphQL APIs, React Apollo Client, and Material UI** to help sales and product teams configure and manage the incident response system for field crews and operations managers.
-- ♦ Reduced system configuration time from multiple days to a few hours.
+-  Engineered an internal tool using **GraphQL APIs, React Apollo Client, and Material UI** to help sales and product teams configure and manage the incident response system for field crews and operations managers.
+-  Reduced system configuration time from multiple days to a few hours.
 `,
         skills: [
           "React",
@@ -95,7 +95,9 @@ skills: [
         title: "Software Developer",
         year: "November 2015 - December 2016, 1 year, 1 month",
         description: `
-- ♦ Enhanced UI/UX for key Kilimall campaigns. Integrated the new M-Pesa API to expand customer reach. Created a [**user-friendly guide for integrating with Lipa Na M-Pesa**](https://github.com/HawiCaesar/pay_confirmation).
+- Enhanced UI/UX for key Kilimall campaigns. 
+- Integrated the new M-Pesa API to expand customer reach. 
+- Created a [**user-friendly guide for integrating with Lipa Na M-Pesa**](https://github.com/HawiCaesar/pay_confirmation).
             `,
         skills: [
           "Javascript",
@@ -116,8 +118,8 @@ skills: [
         title: "Web Developer",
         year: "November 2013 - October 2015, 1 year, 11 months",
         description: `
-- ♦ Built web-based health solutions for the Ministry of Health in Kenya allowing better reporting, analytics and ultimately better resource allocation to remote hospitals in Kenya. Achieved this with **PHP - CodeIgniter**.
-- ♦ More details of the work we did here [**here**](https://www.youtube.com/watch?v=VKxUVXX_YWI)
+- Built web-based health solutions for the Ministry of Health in Kenya allowing better reporting, analytics and ultimately better resource allocation to remote hospitals in Kenya. Achieved this with **PHP - CodeIgniter**.
+- More details of the work we did here [**here**](https://www.youtube.com/watch?v=VKxUVXX_YWI)
 
 `,
         skills: [
