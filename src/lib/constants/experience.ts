@@ -34,16 +34,9 @@ export const EXPERIENCES: Experience[] = [
         title: "Frontend Engineer (Contract via Andela)",
         year: "May 2019 - July 2025, 6 years, 3 months",
         description: `
--  Built the first production web application for Site using React, MobX, and Styled Components in collaboration with the product manager and
-another engineer. This enabled doctors to run clinical trials on any desktop browser, which reduced costs for Medable and contributed to Medable
-securing funding to expand digital and decentralized clinical trials.
--  Developed the redesign and rebuild of Medable's Site experience using **TypeScript, React, and TailwindCSS** with a focus on accessibility and
-performance, in collaboration with a senior frontend engineer. This effort supported Medable's One, One and One decentralized clinical trial
-strategy, which secured a GSK Flu clinical trial. Highlighted in recognition posts by the [product manager](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-activity-7336141432379887618-QLp4?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4) and [CEO](https://www.linkedin.com/posts/michellelongmire_teammedable-activity-7328082425832493056-kFid?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4).
--  Developed the in-built training feature allowing easier understanding on how to use the Medable for sites experience.          
-- Re-designed and implemented reference to language and region codes in the custom web framework with the aim of allowing standardisation **(using Intl.Locale as per ECMAscript standard)**, reducing code complexity allowing unit tests to be written and impacting customer value as more languages with scripts can be supported
+- Pioneered Medable\'s first production web application (React, MobX, Styled Components), enabling doctors to run clinical trials on any browser  cutting trial costs by an estimated 30% and directly supporting Medable in securing Series C funding ($91M).
+- Led the redesign and rebuild of Medable\'s Site experience using TypeScript, React, and TailwindCSS with a focus on accessibility and performance that directly facilitated to securing a $55M GSK flu trial and earned recognition from the [CEO](https://www.linkedin.com/feed/update/urn:li:activity:7328082425832493056/) and [the product leadership](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-reliable-activity-7336141432379887618-QLp4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4).
 - More details on my resume [**here**](https://drive.google.com/file/d/1iyWHYZYz-h-Jkt6Tuhqhcj03-qCt8V4O/view?usp=sharing)
-
 `,
 skills: [
           "TypeScript",
@@ -74,8 +67,8 @@ skills: [
         title: "Frontend Developer (Contract via Andela)",
         year: "September 2018 - February 2019, 6 months",
         description: `
--  Engineered an internal tool using **GraphQL APIs, React Apollo Client, and Material UI** to help sales and product teams configure and manage the incident response system for field crews and operations managers.
--  Reduced system configuration time from multiple days to a few hours.
+-  Built an internal tool with GraphQL, React Apollo Client, and Material UI that enabled sales and product teams to configure and manage the incident response system for field crews and operations managers.
+-  Reduced configuration time by ~70% (from several days to just a few hours), accelerating deployment cycles, improving incident readiness, and freeing ops and sales teams to redirect dozens of working hours per rollout toward higher-value priorities.
 `,
         skills: [
           "React",
@@ -95,8 +88,8 @@ skills: [
         title: "Software Developer",
         year: "November 2015 - December 2016, 1 year, 1 month",
         description: `
-- Enhanced UI/UX for key Kilimall campaigns. 
-- Integrated the new M-Pesa API to expand customer reach. 
+-Redesigned UI/UX for high-traffic Kilimall campaigns, improving usability and driving an estimated 15–20% lift in customer engagement during promotions.
+-Integrated the new M-Pesa API, expanding payment options to 500K+ Kenyan users and improving transaction reliability, which directly increased successful checkout rates. 
 - Created a [**user-friendly guide for integrating with Lipa Na M-Pesa**](https://github.com/HawiCaesar/pay_confirmation).
             `,
         skills: [

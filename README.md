@@ -16,7 +16,7 @@
         <a href="https://hawi-xi.vercel.app/">hawi-xi.vercel.app</a>
       </td>
         <td style="padding:10px"> 
-          <a href="https://www.linkedin.com/in/brian-hawi-odhiambo-95180a95/">Brian Hawi Odhiambo</a>
+          <a href="https://www.linkedin.com/in/brianhawi/">Brian Hawi Odhiambo</a>
       </td>
       <td style="padding:10px">
         <a href="mailto:brianhawi92@gmail.com">brianhawi92@gmail.com</a>
