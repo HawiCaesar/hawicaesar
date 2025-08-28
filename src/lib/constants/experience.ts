@@ -88,8 +88,8 @@ skills: [
         title: "Software Developer",
         year: "November 2015 - December 2016, 1 year, 1 month",
         description: `
--Redesigned UI/UX for high-traffic Kilimall campaigns, improving usability and driving an estimated 15–20% lift in customer engagement during promotions.
--Integrated the new M-Pesa API, expanding payment options to 500K+ Kenyan users and improving transaction reliability, which directly increased successful checkout rates. 
+- Redesigned UI/UX for high-traffic Kilimall campaigns, improving usability and driving an estimated 15–20% lift in customer engagement during promotions.
+- Integrated the new M-Pesa API, expanding payment options to 500K+ Kenyan users and improving transaction reliability, which directly increased successful checkout rates. 
 - Created a [**user-friendly guide for integrating with Lipa Na M-Pesa**](https://github.com/HawiCaesar/pay_confirmation).
             `,
         skills: [
