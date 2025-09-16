@@ -1,6 +1,6 @@
 # Hello 👋🏾, my name is Brian Hawi Odhiambo
 
-📫 **How to reach me**
+👨🏾‍💻 **Me as a technologist**
 
 <table style="border-style: solid">
   <thead>

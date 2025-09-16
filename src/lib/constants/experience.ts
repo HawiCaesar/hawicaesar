@@ -36,7 +36,7 @@ export const EXPERIENCES: Experience[] = [
         description: `
 - Pioneered Medable\'s first production web application (React, MobX, Styled Components), enabling doctors to run clinical trials on any browser  cutting trial costs by an estimated 30% and directly supporting Medable in securing Series C funding ($91M).
 - Led the redesign and rebuild of Medable\'s Site experience using TypeScript, React, and TailwindCSS with a focus on accessibility and performance that directly facilitated to securing a $55M GSK flu trial and earned recognition from the [CEO](https://www.linkedin.com/feed/update/urn:li:activity:7328082425832493056/) and [the product leadership](https://www.linkedin.com/posts/erikamotley_medable-for-sitesintuitive-seamless-reliable-activity-7336141432379887618-QLp4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQ7OM0BTjaDKtsOpttyciL-DbngQtgIqv4).
-- More details on my resume [**here**](https://drive.google.com/file/d/1iyWHYZYz-h-Jkt6Tuhqhcj03-qCt8V4O/view?usp=sharing)
+- More details on my resume [**here**](https://drive.google.com/file/d/1ODbhOXZVQYnqa-NysDTOcpezNT1XRmos/view?usp=sharing)
 `,
 skills: [
           "TypeScript",
