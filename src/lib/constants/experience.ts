@@ -8,8 +8,11 @@ export const EXPERIENCES: Experience[] = [
         title: "Software Engineer",
         year: "July 2017 - Present, 8 years",
         description: `
--  Engineered solutions on multiple teams building various internal web products.
--  Projects: Andela Resource Tool, Andela Meals
+- Delivered internal web solutions to 3+ cross-functional teams over a 7-month period by implementing Agile workflows and optimizing cross-team
+collaboration for Andela Resource Tool and Andela Meals.
+- Achieved a 20% reduction in manual workflows on the Andela Resource Tool team by developing web solutions with JavaScript, React, Redux, and
+NodeJS.
+- More details on my resume [**here**](https://drive.google.com/file/d/1ODbhOXZVQYnqa-NysDTOcpezNT1XRmos/view?usp=sharing)
 `,
         skills: [
           "Javascript",
