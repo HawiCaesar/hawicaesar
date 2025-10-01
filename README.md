@@ -13,7 +13,7 @@
   <tbody>
     <tr>
       <td style="padding:10px">
-        <a href="https://hawi-xi.vercel.app/">hawi-xi.vercel.app</a>
+        <a href="https://hawiodhiambo.netlify.app">hawi-xi.vercel.app</a>
       </td>
         <td style="padding:10px"> 
           <a href="https://www.linkedin.com/in/brianhawi/">Brian Hawi Odhiambo</a>
