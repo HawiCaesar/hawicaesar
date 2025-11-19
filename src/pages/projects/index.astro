@@ -9,6 +9,18 @@ import BoxTitle from "@/components/box/title.astro";
 import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = [
+{
+    id: "ai-travel-agent",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "A travel agent that uses OpenAI to generate travel plans based on the user's preferences.",
+      name: "AI Travel Agent",
+      technologies: ["Typescript", "React", "Node.js", "Vite", "OpenAI API", "TailwindCSS"],
+      sourceCode: "https://github.com/HawiCaesar/ai-travel-agent",
+      preview: "https://hawiz-ai-travel-agent.netlify.app/"
+    }
+  },
   {
     id: "pop-choice-movie-recommendation",
     collection: "projects" as const,
@@ -16,7 +28,7 @@ const projects = [
       type: "side" as const,
       description: "A simple movie recommendation app that uses OpenAI to generate embedding vectors for movies and then uses cosine similarity to generate movie recommendations. Best viewed on a mobile device",
       name: "Pop Choice Movie Recommendation",
-      technologies: ["JavaScript", "React", "Node.js", "Express", "OpenAI", "TailwindCSS"],
+      technologies: ["JavaScript", "React", "Node.js", "Vite", "OpenAI API", "TailwindCSS"],
       sourceCode: "https://github.com/HawiCaesar/pop-choice-ai",
       preview: "https://hawizpopchoice.netlify.app/"
     }
