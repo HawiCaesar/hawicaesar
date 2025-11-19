@@ -18,8 +18,10 @@ import {
   PostgreSQL,
   Playwright,
   I18next,
-  ClaudeAI,
-  ChatGPT,
+  Anthropic,
+  OpenAI,
+  ViteJS,
+  Supabase
 } from "developer-icons";
 
 
@@ -72,14 +74,19 @@ export const TECH_STACK = [
     icon: ReactQuery,
   },
   {
-    title: "ChatGPT",
-    href: "https://chatgpt.com/",
-    icon: ChatGPT,
+    title: "Vite.js",
+    href: "https://vitejs.dev/",
+    icon: ViteJS,
   },
   {
-    title: "Claude AI",
+    title: "OpenAI API",
+    href: "https://openai.com/api/",
+    icon: OpenAI,
+  },
+  {
+    title: "Anthropic API",
     href: "https://www.anthropic.com/",
-    icon: ClaudeAI,
+    icon: Anthropic,
   },
   {
     title: "Astro.js",
@@ -113,6 +120,11 @@ export const TECH_STACK = [
     title: "MongoDB",
     href: "https://www.mongodb.com/",
     icon: MongoDB,
+  },
+  {
+    title: "Supabase",
+    href: "https://supabase.com/",
+    icon: Supabase,
   },
   {
     title: "MySQL",
