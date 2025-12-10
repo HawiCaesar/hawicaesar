@@ -12,7 +12,7 @@ export const EXPERIENCES: Experience[] = [
 collaboration for Andela Resource Tool and Andela Meals.
 - Achieved a 20% reduction in manual workflows on the Andela Resource Tool team by developing web solutions with JavaScript, React, Redux, and
 NodeJS.
-- More details on my resume [**here**](https://drive.google.com/file/d/1jqMkGkBL7ZbfAHqQsdWT-vAryFDdp0HK/view?usp=sharing)
+- More details on my resume [**here**](https://drive.google.com/file/d/1qSwy54_SO6Kj-HWdSiiF4yTAKQoG7334/view?usp=sharing)
 `,
         skills: [
           "Javascript",
