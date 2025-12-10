@@ -1,5 +1,5 @@
 export const PROFILE_INFO = {
-  role: 'Software Engineer / Frontend Engineer',
+  role: 'Software Engineer / Frontend Engineer / Full Stack Engineer',
   logo: 'Brian Hawi',
   slogan: 'Let\'s build the future together',
   displayName: "Brian Hawi Odhiambo",

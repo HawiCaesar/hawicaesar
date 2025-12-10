@@ -17,11 +17,17 @@ import {
   MySQL,
   PostgreSQL,
   Playwright,
+  Jest,
   I18next,
   Anthropic,
   OpenAI,
   ViteJS,
-  Supabase
+  Supabase,
+  Cloudflare,
+  Netlify,
+  VercelDark,
+  HTML5,
+  CSS3,
 } from "developer-icons";
 
 
@@ -36,6 +42,16 @@ export const TECH_STACK = [
     title: "Javascript",
     href: "https://www.javascript.com/",
     icon: JavaScript,
+  },
+  {
+    title: "HTML5",
+    href: "https://www.w3.org/html/",
+    icon: HTML5,
+  },
+  {
+    title: "CSS3",
+    href: "https://www.w3.org/css/",
+    icon: CSS3,
   },
 
   // Frontend Technologies
@@ -52,6 +68,11 @@ export const TECH_STACK = [
   {
     title: "React Testing Library",
     href: "https://testing-library.com/docs/react-testing-library/intro/",
+  },
+  {
+    title: "Jest",
+    href: "https://jestjs.io/",
+    icon: Jest,
   },
   {
     title: "Storybook",
@@ -136,8 +157,23 @@ export const TECH_STACK = [
     href: "https://www.postgresql.org/",
     icon: PostgreSQL,
   },
-
+  
   // DevOps & Development Tools
+  {
+    title: "Cloudflare",
+    href: "https://www.cloudflare.com/",
+    icon: Cloudflare,
+  },
+  {
+    title: "Netlify",
+    href: "https://www.netlify.com/",
+    icon: Netlify,
+  },
+  {
+    title: "Vercel",
+    href: "https://www.vercel.com/",
+    icon: VercelDark,
+  },
   {
     title: "Docker",
     href: "https://www.docker.com/",
