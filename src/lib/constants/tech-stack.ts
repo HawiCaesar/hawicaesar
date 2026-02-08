@@ -28,6 +28,8 @@ import {
   VercelDark,
   HTML5,
   CSS3,
+  HuggingFace,
+  Convex
 } from "developer-icons";
 
 
@@ -138,16 +140,6 @@ export const TECH_STACK = [
   },
   // Databases & Caching
   {
-    title: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: MongoDB,
-  },
-  {
-    title: "Supabase",
-    href: "https://supabase.com/",
-    icon: Supabase,
-  },
-  {
     title: "MySQL",
     href: "https://www.mysql.com/",
     icon: MySQL,
@@ -156,6 +148,21 @@ export const TECH_STACK = [
     title: "PostgreSQL",
     href: "https://www.postgresql.org/",
     icon: PostgreSQL,
+  },
+  {
+    title: "Supabase",
+    href: "https://supabase.com/",
+    icon: Supabase,
+  },
+  {
+    title: "Convex",
+    href: "https://www.convex.dev/",
+    icon: Convex,
+  },
+  {
+    title: "MongoDB",
+    href: "https://www.mongodb.com/",
+    icon: MongoDB,
   },
   
   // DevOps & Development Tools
@@ -183,6 +190,11 @@ export const TECH_STACK = [
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
+  },
+  {
+    title: "HuggingFace",
+    href: "https://huggingface.co/",
+    icon: HuggingFace,
   },
 
   // Miscellaneous
