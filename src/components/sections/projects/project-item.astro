@@ -4,6 +4,7 @@ import { ChevronRightIcon, FolderCodeIcon } from "lucide-react";
 import MarkdownRenderer from "@/components/ui/markdown-renderer.astro";
 import type { CollectionEntry } from "astro:content";
 import Badge from "@/components/ui/badge.astro";
+import GithubIcon from "@/components/ui/icons/github.astro";
 
 interface Props {
   project: CollectionEntry<"projects">;
@@ -11,18 +12,20 @@ interface Props {
 
 const { project } = Astro.props;
 ---
-<a
-  href={project.data.preview ?? `/projects/${project.id}`}
-  class="flex cursor-pointer items-center not-last:border-b"
->
-  <FolderCodeIcon className="mx-4.5 size-5 shrink-0 text-muted-foreground" />
+<div class="flex items-center not-last:border-b">
+  <!-- <FolderCodeIcon className="mx-4.5 size-5 shrink-0 text-muted-foreground" /> -->
+  <a href={project.data.sourceCode}>
+    <GithubIcon className="mx-4.5 size-5 shrink-0 text-muted-foreground" />
+  </a>
 
-  <div class="group flex w-full cursor-pointer flex-col gap-y-3 border-l p-4">
+  <div class="group flex w-full flex-col gap-y-3 border-l p-4">
     <div class="flex w-full items-center justify-between text-left select-none">
       <h3
         class="text-lg font-semibold underline-offset-6 group-hover:underline"
       >
-        {project.data.name}
+        <a href={project.data.preview}>
+          {project.data.name}
+        </a>
       </h3>
 
       <ChevronRightIcon
@@ -45,4 +48,4 @@ const { project } = Astro.props;
       )
     }
   </div>
-</a>
+</div>

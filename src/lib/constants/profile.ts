@@ -1,11 +1,11 @@
 export const PROFILE_INFO = {
-  role: 'Software Engineer / Frontend Engineer / Full Stack Engineer',
+  role: 'Fullstack Engineer / Frontend Engineer / Applied AI Engineer',
   logo: 'Brian Hawi',
   slogan: 'Let\'s build the future together',
   displayName: "Brian Hawi Odhiambo",
   email: "brianhawi92@gmail.com",
   about: `
-I work as a full stack **software engineer** with 8+ years of experience specializing in **frontend web development**. A **custodian for frontend experiences** with the ability to develop and maintain high-quality, resilient, accessible, and performant web applications. In addition to frontend development, I have experience in test-driven development (TDD) and backend development. I have 6 years of remote work experience
+I work as a full stack **software engineer** with 8+ years of experience. A **custodian for quality product experiences** with the ability to develop and maintain high-quality, resilient, accessible, and performant web applications. I've moved beyond exploring AI tools into actually building with them, completing projects across RAG, LLM generation, LangChain text chunking, and observability as a deliberate expansion of my engineering toolkit. I have 7 years of remote work experience.
 `,
 } as const;
 
