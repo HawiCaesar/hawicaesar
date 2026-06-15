@@ -115,7 +115,7 @@ skills: [
         year: "November 2013 - October 2015, 1 year, 11 months",
         description: `
 - Built web-based health solutions for the Ministry of Health in Kenya allowing better reporting, analytics and ultimately better resource allocation to remote hospitals in Kenya. Achieved this with **PHP - CodeIgniter**.
-- More details of the work we did here [**here**](https://www.youtube.com/watch?v=VKxUVXX_YWI)
+- More details of the work we did here [**here**](https://drive.google.com/file/d/1UBAmpLihiCkFcGo6pvhDNNnTjYP4qbYc/view?usp=sharing)
 
 `,
         skills: [
