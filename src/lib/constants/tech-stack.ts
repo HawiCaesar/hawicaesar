@@ -29,7 +29,8 @@ import {
   HTML5,
   CSS3,
   HuggingFace,
-  Convex
+  Convex,
+  Railway
 } from "developer-icons";
 
 
@@ -170,6 +171,11 @@ export const TECH_STACK = [
     title: "Cloudflare",
     href: "https://www.cloudflare.com/",
     icon: Cloudflare,
+  },
+  {
+    title: "Railway",
+    href: "https://railway.app/",
+    icon: Railway,
   },
   {
     title: "Netlify",
