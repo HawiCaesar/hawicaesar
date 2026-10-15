@@ -10,6 +10,18 @@ import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = [
 {
+    id: "hotel-booking-app-on-railway",
+    collection: "projects" as const,
+    data: {
+      type: "side" as const,
+      description: "A hotel booking app on Railway that stops and restarts its primary database, records the outage in an audit trail, and shows the timeline and recovery metrics.",
+      name: "Hotel Booking App on Railway",
+      technologies: ["Typescript", "React", "Node.js","Express.js", "React Router", "React Query", "Vite", "TailwindCSS", "PostgreSQL", "Prisma", "Railway",],
+      sourceCode: "https://github.com/HawiCaesar/chaos-eng-demo",
+      preview: "https://booking-web-production-2789.up.railway.app/"
+    }
+  },
+{
     id: "ai-travel-agent",
     collection: "projects" as const,
     data: {
